@@ -8,10 +8,14 @@ import Testimonial from './components/Testimonial'
 import Blogs from './components/Blogs'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <div className="min-h-screen">
+      {/* Navbar */}
+      <Navbar />
+      
       {/* Hero Section */}
       <Hero />
       
