@@ -38,7 +38,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-[90vh] w-full overflow-hidden">
       {/* Carousel Images */}
       <div className="relative h-full w-full">
         {images.map((image, index) => (
@@ -51,7 +51,7 @@ const Hero = () => {
             <img
               src={image}
               alt={`Courier Service ${index + 1}`}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-contain"
             />
           </div>
         ))}
